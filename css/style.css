@@ -1,0 +1,45 @@
+body { background-color: Gainsboro;
+	font-family: 'Hedvig Letters Serif', serif; 
+	color: rgb(33,33,33);
+	line-height: 1.6;
+	font-size: 1rem;
+}
+header { 
+	background-color: rgb(33,33,33);
+	color: rgb(255,255,255);
+	height: 100px;
+	
+}
+header #site-branding h1 img {
+	width:120px;
+	height:40px;
+	
+}
+footer {
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	height: 200px;
+
+}
+
+main {
+	max-width: 65ch;
+	margin: 0 auto;
+	padding: 1rem;
+}
+article { background-color: Ivory }
+nav ul { list-style-type: none
+  display: flex;
+  justify-content: flex-end; /* dock right */
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+ }
+nav ul li { padding: 2em 1em 2em 1em; display: inline; background-color: Ivory }
+nav ul li:hover { background-color: LightGoldenRodYellow }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-Serif; 
+	color: rgb(33,33,33);
+}
+p { }
+.now_read_on { text-align: right }

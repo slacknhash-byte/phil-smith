@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Home Page</title>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+   <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<header>
+	<div id="site-branding"><h1><a href="index.html"><img src="img/logo.svg" alt="Phil Smith" width="120" height="40" /></a><span>Phil Smith</span></h1></div>
+	<nav> 
+		<ul>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#news">News</a></li>
+			<li><a href="index.html#writing">Writing</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	<main>
+	<h1>Home Page</h1>
+	<p>I write things with the goal at chipping away at your preconceptions, revealing the bizarre that masquerades as ordinary, and making you question what you thought you knew. Or, if all else fails, giving the reader (or at least myself) a few ghoulish chuckles while the world continues to circle the plughole.</p>
+	<article id="about">
+		<h2>About Phil Smith</h2>
+		<p>After 48 years as a non-entity, Phil Smith now aspires to the lofty heights of obscurity. He divides his time between writing, playing Solitaire, and hiding sinister instructions in his biography, for the purposes of activating his sleeper agents. Oh look, the Queen of Diamonds. Disregard this bio and continue reading as normal.</p>
+		<p>Phil Smith writes short stories and flash fiction, usually with a science fiction / horror / fantasy slant. He thinks he is influenced by H.P. Lovecraft, R.E. Howard, Michael Moorcock, Stephen King, and Alan Moore. But then he thinks a lot of things. He also thinks writing about himself in the third person is starting to look a bit pretentious, but he committed to it in the first paragraph and he’s pretty much stuck with it for the rest of this section. Our hearts <em>bleed</em> for him, I'm sure.</p>
+		<p>Phil Smith writes because he doesn’t think he’s much good at anything else.</p>
+	</article>	
+	<article id="news">
+		<h2>News</h2>
+		<section>
+		<h3>Hello World</h3>
+		<p><time datetime="2026-04-13T05:09">Mon 13 Apr</time></p>
+		<p>Not a lot happened today. I'm just marking stuff up with <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
+		<!--
+		Eventually the news section will be fed by a script, pulling headlines and posts from another source,
+		either a database or an RSS feed or similar.
+		Each post will consist of a <section> element, containing:
+		* Title in <h3> tags
+		* Date of posting in <p> and <time> tags.
+		* Subsequent text in <p> tags.
+		-->
+		</section>
+		<p class="now_read_on"><a href="news.html">More news</a></p>
+	</article>
+	<article id="writing">
+		<h2>Writing</h2>
+		<p>While experimenting with other forms of writing, for the most part I tend to write short stories, or if I can get the point across in 500 words or less, flash fiction.</p>
+		<section>
+		<h3>Short Stories</h3>
+		<p>The most recent short story I've chosen to make available is <a href="home_made_moonlight.html">‘Home-Made Moonlight’</a>. Higher technology has started to fail, humanity is regressing back into the 1960s and further, and all of a sudden, the Moon has gone wrong.</p>
+		<p class="now_read_on"><a href="short_stories.html">More short stories</a></p>
+		</section>
+		<section>
+		<h3>Flash Fiction</h3>
+		<p>With the <abbr title="President of the United States">POTUS</abbr> relying on fundamentalists, evangelicals, and ultra-wealthy televangelists to present himself as God's choice for President, his advancing age has led him to wonder about the state of his soul. The <a href="mhga.html"><abbr title="Make Heaven Great Again">MHGA</abbr></a> movement has it all in hand, as this letter will show.</p>
+		<p class="now_read_on"><a href="flashfic.html">More flashfic</a></p>
+		</section>
+	</article>
+	<article id="contact">
+		<h2>Talk to Me</h2>
+		<p>Got something to say? Was there something you liked? Something that appalled your sensibilities, insulted your intelligence, affronted your dignity and devalued you as a person? Are you overwhelmed with indifference and yet feel compelled to tell me so at great length and in exhaustive detail?</p>
+		<p>Use the form below. And the gloves provided. I don't know where you've been.</p>
+		<form action="" method="post" autocomplete="on">
+		<fieldset>
+		<legend>Contact Form</legend>
+		<p><label for="username" required>Name:</label> <input type="text" name="username" id="username" /></p>
+		<p><label for="useremail" required>Email:</label> <input type="email" name="useremail" id="useremail" /></p>
+		<p><label for="usercomment" required>Comment:</label> <textarea name="usercomment" id="usercomment"></textarea></p>
+		<p><input type="submit" value="Submit" /></p>
+		</fieldset>
+		</form>
+	</article>
+	
+	</main>
+	<footer>
+	<p>©2026 Phil Smith. All rights reserved. All rites reversed.</p>
+	<!-- 
+	-->
+	</footer>
+</body>
+</html>
