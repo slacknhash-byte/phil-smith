@@ -1,41 +1,39 @@
-body { background-color: Gainsboro;
-	font-family: 'Hedvig Letters Serif', serif; 
-	color: rgb(33,33,33);
-	line-height: 1.6;
-	font-size: 1rem;
+body { 
+	background-color: Gainsboro;
+	color: #333333;
 }
+
 header { 
-	background-color: rgb(33,33,33);
-	color: rgb(255,255,255);
 	height: 100px;
-	
+	background-color: #333333;
+	color: #FFFFFF;
 }
+
+header #site-randing h1 span {
+	margin-left:-9999px
+}
+
 header #site-branding h1 img {
 	width:120px;
 	height:40px;
-	
 }
 
 nav {
-	width:100%;
-	max-width:65ch;
-	margin: 0 auto;
 }
 
 nav ul { 
   list-style-type: none;
-  justify-content:right;
-  display: flex;
   list-style: none;
-  padding: 0;
+  display: flex;
+  justify-content:flex-end;  
   margin-left: auto;
   gap: 1rem
  }
  
 nav ul li { 
-	padding: 1em; 
 	display: inline; 
-	background-color: Ivory 
+	background-color: Ivory;
+	font-family: 'Roboto', sans-Serif; 
 }
 
 nav ul li:hover { 
@@ -51,22 +49,18 @@ footer {
 
 main {
 	background-color: Ivory;
-	max-width: 65ch;
-	margin: 0 auto;
-	padding: 1rem;
+	font-family: 'Hedvig Letters Serif', serif;
+	color: #333333;
 }
 
 
 article { 
-	background-color: Ivory 
-	margin: 2rem 0;
-	padding: 1.5rem;	
+	background-color: Ivory;
+	color: #333333;
 }
 
 
 section {
-  margin: 2rem 0;
-  padding: 1.5rem;
   background: #f5f5f5; /* or very subtle tint */
   border-radius: 8px;
 }
@@ -75,7 +69,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-Serif; 
 	color: rgb(33,33,33);
 }
-p { }
+p { 
+	font-family: 'Hedvig Letters Serif', serif; 	
+}
 .now_read_on { text-align: right }
 .mailmerge {
 	background-color:#CCCCCC;
