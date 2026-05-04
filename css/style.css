@@ -4,10 +4,13 @@ body {
 	margin:0;
 }
 
+header, main, footer {
+	width:auto;
+}
 header { 
-	height: 1rem;
 	background-color: #333333;
 	color: #FFFFFF;
+	padding: 1rem 0;
 }
 
 header h1, main h1 {
@@ -51,7 +54,6 @@ footer {
 }
 
 main {
-	padding: 1rem;
 	background-color: Ivory;
 	font-family: 'Hedvig Letters Serif', serif;
 	color: #333333;
@@ -68,6 +70,7 @@ article {
 section {
   background: #f5f5f5; /* or very subtle tint */
   border-radius: 8px;
+  padding:1rem
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,17 +82,23 @@ p {
 	font-family: 'Hedvig Letters Serif', serif; 	
 }
 
-footer p:first-child {
-	margin:0px
-}
 
 .container {
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 0 1rem;
 }
-.now_read_on { text-align: right }
+
+footer .container p:first-child {
+	margin:0px
+}
+
+.now_read_on { 
+	text-align: right 
+}
+
 .mailmerge {
+/* Used in the flashfic MHGA, to indicate clumsy low-effort mail-merging */
 	background-color:#CCCCCC;
 	border-bottom: 1px solid #C0C0C0;
 	color:#000000
