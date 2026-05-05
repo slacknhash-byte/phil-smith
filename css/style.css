@@ -10,9 +10,14 @@ header, main, footer {
 header { 
 	background-color: #333333;
 	color: #FFFFFF;
-	padding: 1rem 0;
+	padding: padding: 0.75rem 0;
 }
 
+header .container {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
 header h1, main h1 {
 	margin:0;
 	padding:0;
@@ -22,8 +27,9 @@ header #site-branding h1 span {
 }
 
 header #site-branding h1 img {
-	width:120px;
 	height:40px;
+	width: auto;
+	display: block;
 }
 
 nav {
@@ -32,9 +38,9 @@ nav {
 nav ul { 
   list-style: none;
   display: flex;
-  justify-content:flex-end;  
-  margin-left: auto;
-  gap: 1rem
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
  }
  
 nav ul li { 
@@ -44,6 +50,13 @@ nav ul li {
 
 nav ul li:hover { 
 	background-color: LightGoldenRodYellow 
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 0.75rem 3rem 0.75rem;
+  text-decoration: none;
+  /*color: inherit; */
 }
 
 footer {
