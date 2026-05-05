@@ -101,6 +101,16 @@ p {
 	padding: 0 1rem;
 }
 
+.illo { 
+	float: right;
+	margin-left: auto;
+}
+
+.illo img {
+	height: 750px;
+	width: auto;
+}
+
 footer .container p:first-child {
 	margin:0px
 }
