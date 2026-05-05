@@ -16,6 +16,7 @@ header {
 	background-color: #333333;
 	color: #FFFFFF;
 	padding: 1.5rem 0 0.5rem;
+	border-bottom: 2px solid red;
 }
 
 header .container {
@@ -55,6 +56,8 @@ nav ul {
 nav ul li { 
 	background-color: Ivory;
 	font-family: 'Roboto', sans-Serif; 
+  margin: 0;
+  padding: 0;	
 }
 
 nav ul li:hover { 
