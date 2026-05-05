@@ -16,7 +16,7 @@ header {
 	background-color: #333333;
 	color: #FFFFFF;
 	padding: 1.5rem 0 0.5rem;
-	border-bottom: 2px solid red;
+	border: 1px solid red;
 }
 
 header .container {
@@ -42,22 +42,29 @@ header #site-branding h1 img {
 nav {
 	margin: 0;
 	padding: 0;
+	display:flex;
+	align-items:flex-end;
+	border: 1px solid green;
 }
 
 nav ul { 
   list-style: none;
   display: flex;
   gap: 1rem;
-  align-items: flex-end;
+  align-items: stretch;
   margin: 0;
   padding: 0;
+  border:1px solid blue;
  }
  
 nav ul li { 
 	background-color: Ivory;
 	font-family: 'Roboto', sans-Serif; 
-  margin: 0;
-  padding: 0;	
+	margin: 0;
+	padding: 0;	
+	display:flex;
+	align-items:stretch;
+	border:1px solid cyan;
 }
 
 nav ul li:hover { 
@@ -65,7 +72,8 @@ nav ul li:hover {
 }
 
 nav a {
-  display: block;
+  display: flex;
+  align-items:flex-end;
   padding: 0.5rem 1rem;
   text-decoration: none;
   /*color: inherit;*/
