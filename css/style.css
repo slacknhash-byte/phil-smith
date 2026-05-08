@@ -49,7 +49,7 @@ nav ul li {
 nav a {
   display: block;
 
-  background-color: Ivory;
+  background-color: #FFFFF0;
   color: #333333;
 
   padding: 0.75rem 1rem 0.5rem;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: LightGoldenRodYellow;
+  background-color: #FAFAD2;
 }
 
 :root {
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 body { 
-	background-color: Gainsboro;
+	background-color: #DCDCDC;
 	color: #333333;
 	margin:0;
 	padding: calc(var(--space) * 2) 0;
@@ -95,13 +95,13 @@ header #site-branding h1 img {
 
 
 footer {
-	background-color: rgb(0,0,0);
-	color: rgb(255,255,255);
+	background-color: #000000;
+	color: #FFFFFF;
 	padding: 1rem 0;
 }
 
 main {
-	background-color: Ivory;
+	background-color: #FFFFF0;
 	font-family: 'Hedvig Letters Serif', serif;
 	color: #333333;
 	
@@ -109,7 +109,7 @@ main {
 
 
 article { 
-	background-color: Ivory;
+	background-color: #FFFFF0;
 	color: #333333;
 }
 
@@ -124,7 +124,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-Serif; 
-	color: rgb(33,33,33);
+	color: #212121;
 	margin-bottom: var(--space);
 }
 
