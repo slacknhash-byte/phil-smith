@@ -1,6 +1,16 @@
+:root {
+	--space: 1rem;
+	--primary-background-color:#FFFFF0;
+	--primary-color:#333333;
+	--primary-heading-color:#222222;
+	--secondary-background-color:#333333;
+	--secondary-color:#FFFFF0;
+	--tertiary-background-colour:#DCDCDC;
+}
+
 header {
-  background-color: #333333;
-  color: #FFFFFF;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
   padding: 1rem 0;
   /* border-bottom: 2px solid red; /* debug line */
 }
@@ -49,8 +59,8 @@ nav ul li {
 nav a {
   display: block;
 
-  background-color: #FFFFF0;
-  color: #333333;
+  background-color: var(--primary-background-color);
+  color: var(--primary-color);
 
   padding: 0.75rem 1rem 0.5rem;
 
@@ -69,8 +79,8 @@ nav a:hover {
 }
 
 body { 
-	background-color: #DCDCDC;
-	color: #333333;
+	background-color: var(--tertiary-background-color);
+	color: var(--primary-color);
 	margin:0;
 	padding: calc(var(--space) * 2) 0;
 }
@@ -95,22 +105,22 @@ header #site-branding h1 img {
 
 
 footer {
-	background-color: #000000;
-	color: #FFFFFF;
+	background-color: var(--secondary-background-color);
+	color: var(--secondary-color);
 	padding: 1rem 0;
 }
 
 main {
-	background-color: #FFFFF0;
+	background-color: var(--primary-background-color);
 	font-family: 'Hedvig Letters Serif', serif;
-	color: #333333;
+	color: var(--primary-color);
 	
 }
 
 
 article { 
-	background-color: #FFFFF0;
-	color: #333333;
+	background-color: var(--primary-background-color);
+	color: var(--primary-color);
 }
 
 section {
@@ -124,7 +134,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-Serif; 
-	color: #212121;
+	color: var(--primary-heading-color);
 	margin-bottom: var(--space);
 }
 
