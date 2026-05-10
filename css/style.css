@@ -1,12 +1,14 @@
 :root {
 	--space: 1rem;
 	--primary-background-color:#FFFFF0;
+	--primary-background-shade:#E5E5D8;
 	--primary-color:#333333;
 	--primary-heading-color:#222222;
 	--secondary-background-color:#333333;
 	--secondary-color:#FFFFF0;
-	--tertiary-background-colour:#DCDCDC;
+	--tertiary-background-colour:#F0F0FF;
 	--space: 1rem;
+	--paper:url('../img/main-bg.jpg');
 }
 
 body { 
@@ -67,7 +69,10 @@ nav ul li {
 
 nav a {
   display: block;
-
+  background-image:var(--paper);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--primary-background-color);
   color: var(--primary-color);
 
@@ -107,14 +112,15 @@ footer {
 
 main {
 	background-color: var(--primary-background-color);
+	background-image: var(--paper);
 	font-family: 'Hedvig Letters Serif', serif;
 	color: var(--primary-color);
-	
+	border-top: 3px solid var(--primary-background-shade);
 }
 
 
 article { 
-	background-color: var(--primary-background-color);
+	/*background-color: var(--primary-background-color);*/
 	color: var(--primary-color);
 }
 
