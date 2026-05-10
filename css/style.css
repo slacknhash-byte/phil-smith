@@ -6,19 +6,34 @@
 	--secondary-background-color:#333333;
 	--secondary-color:#FFFFF0;
 	--tertiary-background-colour:#DCDCDC;
+	--space: 1rem;
+}
+
+body { 
+	background-color: var(--tertiary-background-color);
+	color: var(--primary-color);
+	margin:0;
+	padding:0;
+}
+
+header, main, footer {
+	width:auto;
 }
 
 header {
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
   padding: 1rem 0;
-  /* border-bottom: 2px solid red; /* debug line */
+  background-image:url('../img/header-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: stretch; /* critical */
+  align-items: end; /* critical */
 }
 
 #site-branding img {
@@ -29,12 +44,6 @@ header .container {
 
 header h1 {
   margin: 0;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
 }
 
 nav {
@@ -74,20 +83,6 @@ nav a:hover {
   background-color: #FAFAD2;
 }
 
-:root {
-  --space: 1rem;
-}
-
-body { 
-	background-color: var(--tertiary-background-color);
-	color: var(--primary-color);
-	margin:0;
-	padding: calc(var(--space) * 2) 0;
-}
-
-header, main, footer {
-	width:auto;
-}
 main h1 {
 	margin:0;
 	padding:0;
@@ -150,18 +145,22 @@ p {
 	padding: 0 1rem;
 }
 
-#about .illo { 
-	float: right;
-	margin-left: auto;
-}
-
-#about .illo img {
-	width: 250px;
-	height: auto;
-}
-
 footer .container p:first-child {
 	margin:0px
+}
+
+#about {
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  align-items:center;	
+}
+
+.about-portrait img {
+	width:250px;
+	height:auto
 }
 
 .now_read_on { 
