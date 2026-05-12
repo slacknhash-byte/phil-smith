@@ -75,7 +75,7 @@ nav a {
   color: var(--primary-color);
   padding: 0.75rem 1rem 0.5rem 1rem;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--sans-serif);
   border-radius: 6px 6px 0 0;
 }
 
@@ -127,7 +127,7 @@ section {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, legend {
 	font-family: 'Roboto', sans-Serif; 
 	color: var(--primary-heading-color);
 	margin-bottom: var(--space);
@@ -171,4 +171,54 @@ footer .container p:first-child {
 	background-color:#CCCCCC;
 	border-bottom: 1px solid #C0C0C0;
 	color:#000000
+}
+
+footer ul {
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	gap:2em;
+}
+
+footer div h2, footer div p, footer div ul {
+}
+
+footer div h2 {
+	font-family: 'Roboto', sans-Serif; 
+	font-size: 0.75rem;
+	color: var(--secondary-color);
+}
+
+footer ul li {
+	font-family: 'Roboto', sans-Serif; 
+	font-size: 0.75rem;
+	color: var(--secondary-color);
+}
+
+footer #copyright {
+	display:block;
+}
+
+footer a:link {
+	color:#CCCCCC
+}
+
+footer a:visited {
+	color:#999999
+}
+
+footer a:hover {
+	color:#EEEEEE
+}
+
+footer a:active{
+	color:#FFFFFF
 }

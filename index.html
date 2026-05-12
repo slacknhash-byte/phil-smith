@@ -16,7 +16,7 @@
 		<div id="site-branding"><h1><a href="index.html"><img src="img/logo.svg" alt="Phil Smith" width="120" height="40" /></a><span>Phil Smith</span></h1></div>
 		<nav> 
 			<ul>
-				<li><a href="index.html#about" class="active">About</a></li>
+				<li><a href="index.html#about">About</a></li>
 				<li><a href="index.html#news">News</a></li>
 				<li><a href="index.html#writing">Writing</a></li>
 				<li><a href="index.html#contact">Contact</a></li>
@@ -79,9 +79,9 @@
 			<form action="" method="post" autocomplete="on">
 			<fieldset>
 			<legend>Contact Form</legend>
-			<p><label for="username" required>Name:</label> <input type="text" name="username" id="username" /></p>
-			<p><label for="useremail" required>Email:</label> <input type="email" name="useremail" id="useremail" /></p>
-			<p><label for="usercomment" required>Comment:</label> <textarea name="usercomment" id="usercomment"></textarea></p>
+			<p><label for="username" required>Name:</label><br /><input type="text" name="username" id="username" /></p>
+			<p><label for="useremail" required>Email:</label><br /><input type="email" name="useremail" id="useremail" /></p>
+			<p><label for="usercomment" required>Comment:</label<br /><textarea name="usercomment" id="usercomment"></textarea></p>
 			<p><input type="submit" value="Submit" /></p>
 			</fieldset>
 			</form>
@@ -90,8 +90,31 @@
 	</main>
 	<footer>
 		<div class="container">
-			<p>©2026 Phil Smith. All rights reserved. All rites reversed.</p>	
+			<div id="footer-menu">
+			<h2>Navigation</h2>
+				<ul>
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="index.html#news">News</a></li>
+					<li><a href="index.html#writing">Writing</a></li>
+					<li><a href="index.html#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div id="footer-content-links">
+			<h2>Writing</h2>
+			<ul>
+					<li><a href="short_stories.html">Short Stories</a></li>
+					<li><a href="flashfic.html">Flash Fiction</a></li>
+				</ul>
+			</div>
+			<div id="footer-social-media">
+			<h2>Socials</h2>
+			<ul>
+				<li><a href="https://bsky.app/profile/ununseptimus.bsky.social">BlueSky</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=61581986019543">Facebook</a></li>
+			</ul>
+			</div>				
 		</div>
+		<div class="container"><p class="copyright">©2026 Phil Smith. All rights reserved. All rites reversed.</p></div>
 	</footer>
 </body>
 </html>
